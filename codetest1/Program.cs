@@ -37,7 +37,7 @@ namespace codetest1
             Console.WriteLine($"The passenger details is Age {Age}, Name is {Name}, Date of travel is {dateoftravel}, no.of tickets is {no_of_Tickets}");
             if (no_of_Tickets > 5)
             {
-                throw (new PassengerExpection("Can not book more than 5 tickets"));
+                throw (new PassengerExpection("Can't book more than 5 tickets"));
             }
             else
             {
